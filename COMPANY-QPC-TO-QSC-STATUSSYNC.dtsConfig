@@ -1,0 +1,18 @@
+<?xml version="1.0"?><DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="PIONE0\Admin" GeneratedFromPackageName="COMPANY-QPC-TO-QSC-STATUSSYNC" 
+								  GeneratedFromPackageID="{59551B88-E363-48E4-B9A1-60813941EA70}" GeneratedDate="2/14/2022 12:50:56 PM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationDB QSC].Properties[ConnectionString]" ValueType="String">
+<ConfiguredValue>
+	Data Source=qoiprlive.database.windows.net;User ID=qoipradmin;Password=WRBMZf2!3$^myK;Initial Catalog=QSC;Provider=SQLNCLI11.1;
+	Auto Translate=False;MARS Connection=False;
+</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceDB QPC].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>
+			Data Source=qoiprlive.database.windows.net;User ID=qoipradmin;Password=WRBMZf2!3$^myK;Initial Catalog=EvolveOnline;Provider=SQLNCLI11.1;
+			MARS Connection=False;
+		</ConfiguredValue>
+</Configuration>
+</DTSConfiguration>
